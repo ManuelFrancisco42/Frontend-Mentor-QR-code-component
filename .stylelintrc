@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-recommended",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "block-no-empty": null,
+    "unit-whitelist": ["em", "rem", "s"],
+    "declaration-block-no-duplicate-properties": true,
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-alphabetical-order": true
+  }
+}
